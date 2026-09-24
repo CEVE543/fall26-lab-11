@@ -1,0 +1,30 @@
+---
+title: "Lab 11: Weather typing"
+week: 12
+module: 3
+date: 2026-11-13
+due:
+  - label: "Lab 11 due"
+    date: 2026-11-20
+status: "placeholder"
+release: "public"
+---
+
+EOF into weather types on a real field.
+
+## Setup
+
+```{julia}
+#| solution: false
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+!isfile(joinpath(lab_dir, "Manifest.toml")) && Pkg.instantiate()
+```
+
+[TODO]
+
+## Exercises
+
+[TODO]
